@@ -4,7 +4,7 @@
   padding: 0%;
 }
 
-body {
+.HeaderHeadline {
   margin: 0;
   padding: 0;
   background-image: url(./header-shapes\ mobile@2x.svg);
@@ -88,4 +88,116 @@ body {
 .icons {
   width: 170.167px;
   height: 20px;
+}
+
+.work-section {
+  display: grid;
+  grid-template-rows: repeat(4, 720px);
+  gap: 6px;
+  border: 2px;
+  padding: 16px;
+  width: 327px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  margin-top: 60px;
+  border-radius: 16px;
+  align-items: center;
+  height: 552px;
+}
+
+.project-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 0%;
+}
+
+.project-detail {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.light-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(122, 134, 154, 1);
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.pro-lang {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lang {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  font-style: normal;
+  letter-spacing: 0.36px;
+  border-radius: 8px;
+  background-color: rgba(235, 235, 255, 1);
+  padding: 4px 12px;
+  color: rgba(96, 112, 255, 1);
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.action {
+  display: flex;
+  padding: 12px 169px 12px 0;
+  align-items: center;
+}
+
+.see-project {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid;
+  background-color: white;
+  border-color: rgba(96, 112, 255, 1);
+  border-radius: 8px;
+  color: var(--primary-b-500, #396df2);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.51px;
 }
