@@ -409,3 +409,18 @@ ul {
   font-weight: 500;
   line-height: 20px;
 }
+
+.contact-me {
+  background-color: rgba(96, 112, 255, 1);
+  width: 375px;
+  height: 948px;
+  margin: 0;
+}
+
+.head-text {
+  transform: translate(30px, 120px);
+}
+
+.one-img {
+  margin:  25px 30px;
+}
