@@ -395,6 +395,15 @@ ul {
   background: #f7f7f9;
 }
 
+.tool-style img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 48px;
+  border: 1px solid #fff;
+  background: lightgray 50% / cover no-repeat;
+}
+
 .tool-style span {
   display: flex;
   width: 215px;
@@ -423,4 +432,39 @@ ul {
 
 .one-img {
   margin:  25px 30px;
+}
+
+.form {
+  transform: translate(25px, 175px);
+}
+
+.form input {
+  padding: 15px 73px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  border: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  margin-left: 10px;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: #6070ff;
+  border: 1px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.form textarea {
+  font-family: 'Poppins', sans-serif;
+  padding: 15px 52px;
+  margin: 8px;
+  border-radius:  8px;
+}
+
+@media screen and (min-width:786px){
+
 }
