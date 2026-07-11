@@ -1,193 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Haider's portfolio website showcasing projects and skills.">
+    <title>Haider | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body> 
-    <div class = "container" >
-        <div class="logo">
-            <b>My Logo</b>
-        </div>
-        <div class="menu desktop-hide">
-            <img src="./icons/Icon - Menu.svg" alt="Button" class="button">
-        </div>
-        <ul class="navigation-links mobile-hide">
-            <li class="Nav-link"><a href="#">Portfolio</a></li>
-            <li class="Nav-link"><a href="#">About</a></li>
-            <li class="Nav-link"><a href="#">Contacts</a></li>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">Haider.</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </div>
-    <div class="headline">
-        <b class="primary-text">
-            <p >I'm Haider<br>
-            Glad to see you!</p>
-        </b>
-        <div class="my-description">I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</div>
-        <div class="social-media">
-            <div class="supporting-text">
-            <div class="lets-connect">LET'S CONNECT</div>
-            </div>
-            </div>
-        <img src="./icons/social media icons.svg" alt="Social Media Icons" class="social-media-icons">
-    </div> 
-    <section class="work-section">
-        <div class="card">
-            <img src="./icons/Snapshoot Portfolio.svg" alt="portfolio" class="snapshot-portfolio desktop-hide">
-            <img src="./icons/desktop card 1.png" alt="portfolio" class="snapshot-portfolio-desk mobile-hide"> 
-            <div class="left-block">
-                <h1 class="project-title">Tonic</h1>
-                <ul class="project-detail">
-                    <li>CANOPY</li>
-                    <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text">Back End Dev</li>
-                    <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text">2023</li>
-                </ul>               
-                    <p class="description" >A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="pro-lang">
-                    <li class="lang">HTML</li>
-                    <li class="lang">CSS</li>
-                    <li class="lang">Javascipt</li>
-                </ul>
-                <div class="action">
-                    <button class="see-project">See Project</button>
-                </div>
-            </div>
-        </div>
-        <div class="card reverse-card">
-            <img src="./icons/Snapshoot Portfolio 2.svg" alt="portfolio" class="snapshot-portfoio desktop-hide">
-            <img src="./icons/desktop card 2.svg" alt="portfolio" class="snapshot-portfolio-desk mobile-hide">
-            <div class="left-block">
-                <h1 class="project-title">Multi-Post<br>Stories</h1>
-                <ul class="project-detail">
-                    <li class="desktop-hide">CANOPY</li>
-                    <li class="mobile-hide">FACEBOOK</li>
-                    <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text desktop-hide">Back End Dev</li>
-                    <li class="mobile-hide light-text">Full Stack Developer</li>
-                    <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text">2023</li>
-                </ul>               
-                    <p class="description" >A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="pro-lang">
-                    <li class="lang">HTML</li>
-                    <li class="lang mobile-hide">Ruby on rails</li>
-                    <li class="lang">CSS</li>
-                    <li class="lang">Javascipt</li>
-                </ul>
-                <div class="action">
-                    <button class="see-project">See Project</button>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="./icons/Snapshoot Portfolio 3.svg" alt="portfolio" class="snapshot-portfoio desktop-hide">
-            <img src="./icons/desktop card 3.svg" alt="portfolio" class="snapshot-portfolio-desk mobile-hide">
-            <div class="left-block">
-                <h1 class="project-title desktop-hide">Tonic</h1>
-                <h1 class="project-title mobile-hide">FACEBOOK 360</h1>
-                <ul class="project-detail">
-                    <li class="desktop-hide">CANOPY</li>
-                    <li class="mobile-hide">FACEBOOK</li>
-                    <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text desktop-hide">Back End Dev</li>
-                    <li class="light-text mobile-hide">Full Stack Dev</li>
-                    <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text">2023</li>
-                </ul>               
-                    <p class="description" >A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="pro-lang">
-                    <li class="lang">HTML</li>
-                    <li class="lang mobile-hide">Ruby on rails</li>
-                    <li class="lang">CSS</li>
-                    <li class="lang">Javascipt</li>
-                </ul>
-                <div class="action desktop-hide">
-                    <button class="see-project">See Project</button>
-                </div>
-                <div class="action mobile-hide">
-                    <button class="see-project-blue">See Project</button>
-                </div>
-            </div>
-        </div>
-        <div class="card reverse-card">
-            <img src="./icons/Snapshoot Portfolio 4.svg" alt="portfolio" class="snapshot-portfoio desktop-hide">
-            <img src="./icons/desktop card 4.svg" alt="portfolio" class="snapshot-portfolio-desk mobile-hide">
-            <div class="left-block">
-                <h1 class="project-title desktop-hide">Multi-Post<br>Stories</h1>
-                <h1 class="project-title mobile-hide">Uber Navigation</h1>
-                <ul class="project-detail">
-                    <li class="desktop-hide">CANOPY</li>
-                    <li class="mobile-hide">Uber</li>
-                    <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text desktop-hide">Back End Dev</li>
-                    <li class="mobile-hide light-text">Lead Developer</li>
-                    <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text">2023</li>
-                </ul>               
-                    <p class="description" >A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="pro-lang">
-                    <li class="lang">HTML</li>
-                    <li class="lang mobile-hide">Ruby on rails</li>
-                    <li class="lang">CSS</li>
-                    <li class="lang">Javascipt</li>
-                </ul>
-                <div class="action">
-                    <button class="see-project">See Project</button>
-                </div>
-            </div>
-        </div>
-        <div class="aboutmyself">
-            <div class="about-myself-top"> 
-                    <h1 class="about-head">About Myself</h1>
-                    <h6 class="about-description" >Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</h6>
-                <div class="social-media">
-                <h4 class="lets-connect">LET'S CONNECT</h4>
-                </div> 
-            <img src="./icons/Social media.svg" alt="Social Media Icons" class="social-media">
-            <button class="resume" href="#">Get my Resume</button>
-            </div>
-                <div class = "skills">
-                    <div class="skills-heading">
-                        <h3>Languages</h3>
-                        <img src="./icons/down arrow.svg"  alt="arrow">
-                    </div>
-                        <ul class="langs">
-                        <li class="desk-langs"><img src="./icons/java script.svg" alt="Javascript"><h4>JavaScript</h4></li>
-                        <li class="desk-langs"><img src="./icons/html.svg" alt="Javascript"><h4>HTML</h4></li>
-                        <li class="desk-langs"><img src="./icons/css.svg" alt="Javascript"><h4>CSS</h4></li>
-                        </ul>
-                        <div class="skills-heading border">
-                            <h3>Frameworks </h3>
-                        <img src="./icons/right arrow.svg" alt="arrow">
-                        </div>
-                    <div class="skills-heading margin border">
-                        <h3>Skills </h3> 
-                        <img src="./icons/right arrow.svg" alt="arrow">
-                    </div>
-                </div>
-        </div>
-        <section class="ContactMe">
-            <section class="ContactMeTop">
-                <p class="ContactMeTopText">Contact Me</p>
-                <p class="ContactMeDetails">
-                    If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
-                </p>
-                <form action="https://formspree.io/f/xvojvqow" method="post" class="form-spree" >
-                    <input type="text" name="email" class="email" placeholder="Enter your email here..." maxlength="" required></input>
-                    <input type="text" name="full-name" class="email" placeholder="Enter your Name here..." maxlength="30" required></input>
-                    <textarea name="message" class="message" placeholder="Write your message here..." maxlength="500" required></textarea>
-                    <div class="FreeButton">
-                        <button type="submit" class="NormalBtn SpecifiedBtnSeeDetails">Get in Touch</button>
-                    </div>
-                </form> 
-                <footer class="footer"></footer>
-            </section>
-        </section>    
-    </section>
+      </nav>
+    </header>
 
-</body>
+    <main id="home">
+      <section class="hero section">
+        <p class="eyebrow">Software Developer</p>
+        <h1>Hi, I’m Haider.</h1>
+        <p class="lead">
+          I build responsive web applications with clean UI and practical functionality. Here are selected
+          projects and the skills I use to turn ideas into working products.
+        </p>
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Featured Projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="./icons/Snapshoot Portfolio.svg" alt="Tonic project preview">
+            <div>
+              <h3>Tonic</h3>
+              <p>A daily content web experience with clean layout, quick browsing, and responsive behavior.</p>
+              <ul class="tag-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="./icons/Snapshoot Portfolio 2.svg" alt="Multi-Post Stories project preview">
+            <div>
+              <h3>Multi-Post Stories</h3>
+              <p>A storytelling style page focused on readable content blocks, responsive cards, and visual flow.</p>
+              <ul class="tag-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="./icons/Snapshoot Portfolio 3.svg" alt="Facebook 360 project preview">
+            <div>
+              <h3>Facebook 360</h3>
+              <p>A product showcase interface with structured sections, reusable UI patterns, and scalable styling.</p>
+              <ul class="tag-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="./icons/Snapshoot Portfolio 4.svg" alt="Uber Navigation project preview">
+            <div>
+              <h3>Uber Navigation</h3>
+              <p>A modern landing layout that highlights navigation clarity, hierarchy, and user-focused interactions.</p>
+              <ul class="tag-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>About Me</h2>
+          <p>
+            I am a software developer focused on building performant and maintainable web experiences. I enjoy
+            transforming requirements into reliable interfaces and continuously improving code quality.
+          </p>
+          <a class="btn" href="#contact">Let’s Work Together</a>
+        </div>
+        <div>
+          <h3>Core Skills</h3>
+          <ul class="skills-list">
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Responsive Design</li>
+            <li>Git & GitHub</li>
+            <li>Frontend Architecture</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something great.</h2>
+          <p>Have a project in mind? Send a message and I’ll get back to you.</p>
+        </div>
+        <form action="https://formspree.io/f/xvojvqow" method="post" class="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="full-name" type="text" maxlength="30" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" maxlength="500" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
