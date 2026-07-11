@@ -98,6 +98,23 @@ h2 {
   color: var(--muted);
 }
 
+.contact-line,
+.quick-links {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.quick-links {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.quick-links a,
+.contact-line a {
+  color: var(--primary-dark);
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -182,6 +199,25 @@ h2 {
   margin-top: 0.8rem;
 }
 
+.info-grid {
+  display: grid;
+  gap: 1rem;
+  padding-top: 0;
+}
+
+.info-card {
+  padding: 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--surface);
+  box-shadow: 0 10px 30px rgb(56 72 127 / 8%);
+}
+
+.info-card p {
+  margin-top: 0.35rem;
+  color: var(--muted);
+}
+
 .skills-list li {
   border: 1px solid var(--border);
   background: var(--surface);
@@ -232,6 +268,10 @@ h2 {
   }
 
   .about {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .info-grid {
     grid-template-columns: 1fr 1fr;
   }
 
