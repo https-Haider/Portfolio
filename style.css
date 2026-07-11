@@ -14,6 +14,18 @@
   --radius: 24px;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   color: var(--text);
@@ -203,9 +215,12 @@ textarea {
   align-items: center;
   justify-content: center;
   min-height: 44px;
+  max-width: 100%;
   padding: 0 18px;
   background: rgba(11, 20, 16, 0.9);
   color: var(--text);
+  white-space: normal;
+  text-align: center;
 }
 
 .contact-socials a:hover,
@@ -779,6 +794,10 @@ textarea {
   .contact-socials a,
   .footer-links a {
     width: 100%;
+  }
+
+  .card-actions.wrap .button {
+    flex: 1 1 100%;
   }
 
   .hero-actions .button,
