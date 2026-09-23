@@ -1,437 +1,259 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark">
-    <meta name="description" content="Haider Abbas - Software Engineer and Full-Stack Developer portfolio.">
-    <link rel="stylesheet" href="style.css">
-    <title>Haider Abbas | Software Engineer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="Haider Abbas is a full-stack developer building production web, mobile, and AI-powered products with React, React Native, Node.js, and Python.">
+  <meta property="og:title" content="Haider Abbas | Full-Stack Developer">
+  <meta property="og:description" content="Production web, mobile, backend, and AI-powered product development.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Haider Abbas | Full-Stack Developer</title>
 </head>
 <body>
-    <div class="site-shell">
-        <header class="topbar reveal">
-            <a class="brand" href="#home" aria-label="Haider Abbas home">
-                <span class="brand-mark">HA</span>
-                <span class="brand-copy">
-                    <strong>Haider Abbas</strong>
-                    <span>Software Engineer</span>
-                </span>
-            </a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
 
-            <nav class="desktop-nav" aria-label="Primary">
-                <a href="#home">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
-            </nav>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Haider Abbas, home">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span>HAIDER ABBAS</span>
+    </a>
 
-            <div class="topbar-ribbon" aria-hidden="true">
-                <span class="ribbon-chip">Open to opportunities</span>
-                <span class="ribbon-rule"></span>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <a class="header-cta" href="mailto:haiderhunjra1011@gmail.com">Let&apos;s talk <span aria-hidden="true">↗</span></a>
+
+    <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu" data-menu-button>
+      <span></span><span></span>
+    </button>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" data-mobile-menu>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="mailto:haiderhunjra1011@gmail.com">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-status reveal">
+        <span class="status-pulse" aria-hidden="true"></span>
+        Full-Stack Developer at Escalo AI
+      </div>
+
+      <h1 class="reveal">I build digital products<br>that <em>work in the real world.</em></h1>
+
+      <div class="hero-bottom reveal">
+        <p>I&apos;m Haider, a Lahore-based software engineer working across web, mobile, backend, and AI—from polished interfaces to production APIs.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button secondary" href="Haider_Abbas_Resume.pdf" download>Download résumé</a>
+        </div>
+      </div>
+
+      <div class="hero-marquee reveal" aria-label="Core technologies">
+        <div class="marquee-track">
+          <span>REACT</span><i>✦</i><span>REACT NATIVE</span><i>✦</i><span>NEXT.JS</span><i>✦</i><span>FASTAPI</span><i>✦</i><span>NODE.JS</span><i>✦</i><span>PYTHON</span><i>✦</i><span>POSTGRESQL</span><i>✦</i>
+          <span aria-hidden="true">REACT</span><i aria-hidden="true">✦</i><span aria-hidden="true">REACT NATIVE</span><i aria-hidden="true">✦</i><span aria-hidden="true">NEXT.JS</span><i aria-hidden="true">✦</i><span aria-hidden="true">FASTAPI</span><i aria-hidden="true">✦</i><span aria-hidden="true">NODE.JS</span><i aria-hidden="true">✦</i><span aria-hidden="true">PYTHON</span><i aria-hidden="true">✦</i><span aria-hidden="true">POSTGRESQL</span><i aria-hidden="true">✦</i>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-intro reveal">
+        <p class="kicker">01 / Selected work</p>
+        <h2>Products built to solve<br><span>actual problems.</span></h2>
+      </div>
+
+      <div class="projects">
+        <article class="project project-cliniqly reveal">
+          <div class="project-number">01</div>
+          <div class="project-visual" aria-hidden="true">
+            <div class="browser-mockup">
+              <div class="browser-bar"><span></span><span></span><span></span><b>cliniqly.tech</b></div>
+              <div class="clinic-ui">
+                <div class="mock-sidebar"><b>C</b><i></i><i></i><i></i></div>
+                <div class="mock-main">
+                  <small>GOOD MORNING</small><strong>Today&apos;s schedule</strong>
+                  <div class="mock-stats"><i></i><i></i><i></i></div>
+                  <div class="mock-calendar"></div>
+                </div>
+              </div>
             </div>
-
-            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav" data-menu-toggle>
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-            <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
-                <a href="#home">Home</a>
-                <a href="#projects">Projects</a>
-                <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
-
-        <main>
-            <section class="hero section reveal" id="home">
-                <div class="hero-copy">
-                    <p class="eyebrow">Available for Full-time Roles & Internships</p>
-                    <h1>Hi, I&apos;m <span>Haider Abbas</span></h1>
-                    <p class="typed-line">
-                        <span class="typed-label">I build as</span>
-                        <span class="typed-role" data-typed-role></span>
-                        <span class="typed-cursor" aria-hidden="true">|</span>
-                    </p>
-                    <p class="hero-text">I enjoy building production-ready full-stack applications with Next.js and the MERN stack, optimizing performance, and integrating AI/LLM APIs into real products.</p>
-
-                    <div class="hero-actions">
-                        <a class="button button-primary" href="#projects">View Projects</a>
-                        <a class="button button-secondary" href="#contact">Let&apos;s Connect</a>
-                        <a class="button button-ghost" href="/Haider_Abbas_Resume.pdf" download>Download Resume</a>
-                    </div>
-
-                    <div class="social-row" aria-label="Social links">
-                        <a href="https://github.com/https-Haider" target="_blank" rel="noreferrer" aria-label="GitHub">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.76.6-3.34-1.18-3.34-1.18-.45-1.14-1.1-1.44-1.1-1.44-.9-.62.07-.61.07-.61 1 .07 1.53 1.02 1.53 1.02.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.21-.25-4.54-1.1-4.54-4.9 0-1.08.39-1.96 1.03-2.65-.1-.25-.45-1.26.1-2.62 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.29 2.74-1.02 2.74-1.02.56 1.36.21 2.37.11 2.62.64.69 1.03 1.57 1.03 2.65 0 3.81-2.33 4.65-4.55 4.89.36.31.69.92.69 1.86v2.76c0 .26.18.57.69.47A10 10 0 0 0 12 2Z"/></svg>
-                        </a>
-                        <a href="https://linkedin.com/in/haider-abbas-7557712b5" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.48 2.48 0 1 1 0 4.96 2.48 2.48 0 0 1 0-4.96ZM3 8.75h3.95V21H3V8.75Zm7.25 0h3.78v1.68h.05c.53-1 1.83-2.04 3.77-2.04C21 8.39 21 11.1 21 14.2V21h-3.95v-5.92c0-1.41-.03-3.22-1.96-3.22-1.97 0-2.27 1.54-2.27 3.11V21H10.25V8.75Z"/></svg>
-                        </a>
-                        <a href="mailto:haiderhunjra1011@gmail.com" aria-label="Email">
-                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v.23l8 4.8 8-4.8V7H4Zm16 10V9.46l-7.48 4.49a1 1 0 0 1-1.04 0L4 9.46V17h16Z"/></svg>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="hero-visual">
-                    <div class="avatar-card panel">
-                        <div class="avatar">HA</div>
-                        <div>
-                            <p class="mini-label">Profile</p>
-                            <h2>Haider Abbas</h2>
-                            <p>Software Engineer | Full-Stack Developer</p>
-                            <p class="muted">Lahore, Pakistan</p>
-                        </div>
-                    </div>
-
-                    <div class="terminal panel">
-                        <div class="terminal-bar">
-                            <span></span><span></span><span></span>
-                            <strong>haider@terminal: ~/portfolio</strong>
-                        </div>
-                        <div class="terminal-copy">
-                            <p>$ curl https://haiderabbas.dev/profile</p>
-                            <p>{</p>
-                            <p>&nbsp;&nbsp;&quot;name&quot;: &quot;Haider Abbas&quot;,</p>
-                            <p>&nbsp;&nbsp;&quot;location&quot;: &quot;Lahore, Pakistan&quot;,</p>
-                            <p>&nbsp;&nbsp;&quot;degree&quot;: &quot;BS Software Engineering (2026)&quot;,</p>
-                            <p>&nbsp;&nbsp;&quot;interests&quot;: [&quot;Full-Stack Dev&quot;, &quot;AI Integration&quot;, &quot;Web Performance&quot;],</p>
-                            <p>&nbsp;&nbsp;&quot;philosophy&quot;: &quot;Build. Ship. Learn. Repeat.&quot;</p>
-                            <p>}</p>
-                            <p>$ npm run skills --active</p>
-                            <p>[Next.js, MERN, Stripe, OpenAI API, Cloudinary]</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section about reveal" id="about">
-                <div class="section-heading">
-                    <p class="eyebrow">About Me</p>
-                    <h2>My Journey & Story</h2>
-                </div>
-
-                <div class="about-grid">
-                    <article class="panel story-panel">
-                        <p class="lead-text">A fresh Software Engineering graduate from COMSATS University Islamabad, passionate about building and shipping full-stack web applications. I focus on Next.js and the MERN stack, with hands-on experience delivering production-ready systems, optimizing performance bottlenecks, and integrating AI/LLM APIs into real products. I&apos;m eager to bring that same energy to a collaborative engineering team as a junior developer.</p>
-
-                        <div class="philosophy-block">
-                            <p class="mini-label">My Philosophy</p>
-                            <div class="philosophy-lines">
-                                <span>Build.</span>
-                                <span>Ship.</span>
-                                <span>Learn.</span>
-                                <span>Repeat.</span>
-                            </div>
-                        </div>
-
-                        <div class="stats-grid">
-                            <div class="stat-card">
-                                <strong>2+</strong>
-                                <span>Projects Built</span>
-                            </div>
-                            <div class="stat-card">
-                                <strong>20+</strong>
-                                <span>REST API Endpoints Delivered</span>
-                            </div>
-                            <div class="stat-card">
-                                <strong>200+</strong>
-                                <span>Products Managed in Production</span>
-                            </div>
-                            <div class="stat-card">
-                                <strong>1</strong>
-                                <span>Deep Learning Specialization</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <aside class="panel education-panel">
-                        <p class="mini-label">Education</p>
-                        <h3>COMSATS University Islamabad, Lahore Campus</h3>
-                        <p>Bachelor of Science — Software Engineering</p>
-                        <p>CGPA: 3.04 / 4.00</p>
-                        <p>Feb 2022 – Jan 2026</p>
-                    </aside>
-                </div>
-
-                <div class="timeline panel">
-                    <div class="section-heading small">
-                        <p class="eyebrow">Timeline</p>
-                        <h3>Year-by-Year Progress</h3>
-                    </div>
-                    <div class="timeline-list">
-                        <article>
-                            <span>2022</span>
-                            <p>Started BS Software Engineering at COMSATS University Islamabad.</p>
-                        </article>
-                        <article>
-                            <span>2023–2024</span>
-                            <p>Built foundational skills in JavaScript, React, and the MERN stack.</p>
-                        </article>
-                        <article>
-                            <span>2025</span>
-                            <p>Built KicksHub and completed the Deep Learning Specialization through Coursera / DeepLearning.AI.</p>
-                        </article>
-                        <article>
-                            <span>2025–2026</span>
-                            <p>Built the final year project: an AI-powered code smell detection and refactoring platform.</p>
-                        </article>
-                        <article>
-                            <span>2026</span>
-                            <p>Graduating and starting a professional software engineering career.</p>
-                        </article>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section stack reveal" id="tech-stack">
-                <div class="section-heading">
-                    <p class="eyebrow">Tech Stack</p>
-                    <h2>Skills & Expertise</h2>
-                </div>
-
-                <div class="stack-grid">
-                    <article class="stack-card panel">
-                        <h3>Languages</h3>
-                        <p>JavaScript, TypeScript, Python, NumPy, Pandas</p>
-                    </article>
-                    <article class="stack-card panel">
-                        <h3>Frontend</h3>
-                        <p>React.js, Next.js, HTML, CSS, Tailwind</p>
-                    </article>
-                    <article class="stack-card panel">
-                        <h3>Backend</h3>
-                        <p>Node.js, Express.js, REST APIs</p>
-                    </article>
-                    <article class="stack-card panel">
-                        <h3>Databases</h3>
-                        <p>SQL Server, MySQL, MongoDB</p>
-                    </article>
-                    <article class="stack-card panel">
-                        <h3>Integrations & Tools</h3>
-                        <p>Stripe, Cloudinary, OpenAI / LLM APIs, OTP Auth, JSON-LD / SEO</p>
-                    </article>
-                    <article class="stack-card panel">
-                        <h3>Dev Tools</h3>
-                        <p>Git, GitHub, Vercel</p>
-                    </article>
-                </div>
-            </section>
-
-            <section class="section projects reveal" id="projects">
-                <div class="section-heading">
-                    <p class="eyebrow">Projects</p>
-                    <h2>Featured Work</h2>
-                </div>
-
-                <div class="project-grid">
-                    <article class="project-card panel featured">
-                        <div class="project-meta">
-                            <p class="mini-label">Full-Stack Developer</p>
-                            <h3>KicksHub — Full-Stack Sneaker E-Commerce Platform</h3>
-                            <p class="project-dates">Sep 2025 – Dec 2025 | Live</p>
-                        </div>
-
-                        <div class="tag-row">
-                            <span>Next.js</span>
-                            <span>Node.js</span>
-                            <span>Stripe</span>
-                            <span>Cloudinary</span>
-                        </div>
-
-                        <p>Production-grade e-commerce store handling 200+ products with real-time inventory tracking and multi-image galleries. Implemented OTP-verified checkout, a role-based admin dashboard, order management, automated email notifications, and a customer review system. Delivered 20+ RESTful API endpoints covering orders, payments, and reviews with comprehensive audit logging. Built an AI-driven SEO content pipeline using OpenAI APIs to auto-generate meta tags, titles, and descriptions for 200+ product listings, plus dynamic JSON-LD structured data and sitemap generation.</p>
-
-                        <div class="card-actions">
-                            <a class="button button-primary" href="https://www.kickshub.site/" target="_blank" rel="noreferrer">Live Demo</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card panel featured reverse">
-                        <div class="project-meta">
-                            <p class="mini-label">Full-Stack Developer | 3-tier architecture</p>
-                            <h3>Code Smell Detection & Refactoring Platform</h3>
-                            <p class="project-dates">Mar 2025 – Feb 2026</p>
-                        </div>
-
-                        <div class="tag-row">
-                            <span>Next.js</span>
-                            <span>Node.js</span>
-                            <span>Python</span>
-                            <span>LLM APIs</span>
-                        </div>
-
-                        <p>A collaborative code-sharing platform similar to GitHub, enabling users to share projects and form teams, with AI-based analysis that automatically detects and suggests refactoring for common code smells and bad design patterns. The system promotes clean, maintainable code through automated feedback loops built on LLM APIs.</p>
-
-                        <div class="card-actions wrap">
-                            <a class="button button-secondary" href="https://github.com/https-Haider/FYP-Front-End.git" target="_blank" rel="noreferrer">Frontend Repo</a>
-                            <a class="button button-secondary" href="https://github.com/https-Haider/FYP-Back-End.git" target="_blank" rel="noreferrer">Backend Repo</a>
-                            <a class="button button-secondary" href="https://github.com/https-Haider/FYP-Python-Back-End.git" target="_blank" rel="noreferrer">Python AI Service</a>
-                        </div>
-                    </article>
-                </div>
-            </section>
-
-            <section class="section experience reveal" id="experience">
-                <div class="section-heading">
-                    <p class="eyebrow">Experience</p>
-                    <h2>Selected Experience</h2>
-                </div>
-
-                <div class="experience-grid">
-                    <article class="panel exp-card">
-                        <p class="mini-label">Product Delivery</p>
-                        <h3>KicksHub</h3>
-                        <p>Owned the full-stack build of a production e-commerce platform, with checkout flows, admin tools, inventory management, review handling, notifications, and SEO automation.</p>
-                    </article>
-                    <article class="panel exp-card">
-                        <p class="mini-label">Final Year Project</p>
-                        <h3>AI Code Smell Platform</h3>
-                        <p>Designed a 3-tier architecture for collaboration, code analysis, and AI-assisted refactoring suggestions across a team-oriented developer platform.</p>
-                    </article>
-                    <article class="panel exp-card">
-                        <p class="mini-label">Certification</p>
-                        <h3>Deep Learning Specialization</h3>
-                        <p>Completed the Coursera / DeepLearning.AI specialization covering neural networks, optimization, regularization, and machine learning project structure.</p>
-                    </article>
-                </div>
-            </section>
-
-            <section class="section certifications reveal" id="certifications">
-                <div class="section-heading">
-                    <p class="eyebrow">Certifications</p>
-                    <h2>Focused Learning</h2>
-                </div>
-
-                <article class="panel certification-card">
-                    <div>
-                        <h3>Deep Learning Specialization</h3>
-                        <p>Coursera / DeepLearning.AI, Issued Aug 2025</p>
-                    </div>
-                    <ul>
-                        <li>Neural Networks and Deep Learning</li>
-                        <li>Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization</li>
-                        <li>Structuring Machine Learning Projects</li>
-                    </ul>
-                </article>
-            </section>
-
-            <section class="section social-reach reveal" id="social-reach">
-                <div class="section-heading">
-                    <p class="eyebrow">Social Reach</p>
-                    <h2>Let&apos;s Connect on LinkedIn</h2>
-                </div>
-
-                <div class="panel social-card">
-                    <p>I share my projects, learning journey, and career updates on LinkedIn — let&apos;s connect.</p>
-                    <a class="button button-primary" href="https://linkedin.com/in/haider-abbas-7557712b5" target="_blank" rel="noreferrer">Visit LinkedIn</a>
-                </div>
-            </section>
-
-            <section class="section contact reveal" id="contact">
-                <div class="contact-grid">
-                    <div class="panel contact-copy">
-                        <p class="eyebrow">Contact</p>
-                        <p class="lead-text">Have a full-stack project, an internship opportunity, or something interesting to build? I&apos;d love to hear from you.</p>
-
-                        <div class="contact-details">
-                            <div>
-                                <span>Direct Email</span>
-                                <a href="mailto:haiderhunjra1011@gmail.com">haiderhunjra1011@gmail.com</a>
-                            </div>
-                            <div>
-                                <span>Phone</span>
-                                <a href="tel:+923177258837">+92-317-725-8837</a>
-                            </div>
-                            <div>
-                                <span>Location</span>
-                                <p>Lahore, Pakistan</p>
-                            </div>
-                        </div>
-
-                        <div class="contact-socials">
-                            <a href="https://github.com/https-Haider" target="_blank" rel="noreferrer">GitHub</a>
-                            <a href="https://linkedin.com/in/haider-abbas-7557712b5" target="_blank" rel="noreferrer">LinkedIn</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="site-footer reveal">
+          </div>
+          <div class="project-copy">
             <div>
-                <strong>Haider Abbas.</strong>
-                <p>© 2026 Haider Abbas. All rights reserved.</p>
+              <p class="project-type">SaaS · Web & Mobile</p>
+              <h3>Cliniqly</h3>
             </div>
-            <div class="footer-links">
-                <a href="https://github.com/https-Haider" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://linkedin.com/in/haider-abbas-7557712b5" target="_blank" rel="noreferrer">LinkedIn</a>
-                <a href="mailto:haiderhunjra1011@gmail.com">Email</a>
+            <p>A clinic operations platform that brings bookings, calendars, and client records into one branded dashboard—with official WhatsApp automation for reminders and confirmations.</p>
+            <ul class="project-outcomes">
+              <li>Next.js and Node.js SaaS platform</li>
+              <li>Meta-approved WhatsApp Business API</li>
+              <li>Cross-platform React Native app in development</li>
+            </ul>
+            <div class="project-footer">
+              <div class="tags"><span>Next.js</span><span>Node.js</span><span>React Native</span></div>
+              <a href="https://www.cliniqly.tech/" target="_blank" rel="noreferrer">Visit live site <span aria-hidden="true">↗</span></a>
             </div>
-            <p class="footer-note">Built with Next.js, TS & Tailwind</p>
-        </footer>
+          </div>
+        </article>
+
+        <article class="project project-fyp reveal">
+          <div class="project-number">02</div>
+          <div class="project-visual code-visual" aria-hidden="true">
+            <div class="code-window">
+              <div class="code-top"><span>Analysis.java</span><span>● ● ●</span></div>
+              <pre><code><span class="code-dim">12</span>  public void processOrder() {
+<span class="code-dim">13</span>    <span class="code-warn">// Complex Method detected</span>
+<span class="code-dim">14</span>    if (customer != null) {
+<span class="code-dim">15</span>      calculateDiscount();
+<span class="code-dim">16</span>      updateInventory();
+<span class="code-dim">17</span>    }
+<span class="code-dim">18</span>  }</code></pre>
+              <div class="analysis-chip"><b>74.93%</b><span>evaluation accuracy</span></div>
+            </div>
+          </div>
+          <div class="project-copy">
+            <div>
+              <p class="project-type">AI · Final Year Project</p>
+              <h3>Code Smell Detection</h3>
+            </div>
+            <p>A three-tier Java analysis and refactoring system combining deterministic checks, fine-tuned transformer models, and LLM-generated suggestions.</p>
+            <ul class="project-outcomes">
+              <li>26 rule-based code quality checks</li>
+              <li>2 fine-tuned transformer models</li>
+              <li>Context-aware refactoring recommendations</li>
+            </ul>
+            <div class="project-footer">
+              <div class="tags"><span>Next.js</span><span>Express</span><span>Flask</span></div>
+              <a href="https://github.com/https-Haider/FYP-Front-End" target="_blank" rel="noreferrer">View repositories <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project project-kicks reveal">
+          <div class="project-number">03</div>
+          <div class="project-visual shoe-visual" aria-hidden="true">
+            <div class="shoe-card">
+              <span class="shoe-label">KICKSHUB / 2025</span>
+              <div class="shoe-word">KICKS</div>
+              <div class="shoe-shape"></div>
+              <div class="shoe-metrics"><span><b>200+</b> products</span><span><b>20+</b> APIs</span></div>
+            </div>
+          </div>
+          <div class="project-copy">
+            <div>
+              <p class="project-type">E-commerce · Production</p>
+              <h3>KicksHub</h3>
+            </div>
+            <p>A production sneaker store with a full commerce workflow—from inventory and secure checkout to administration, customer reviews, and automated SEO.</p>
+            <ul class="project-outcomes">
+              <li>Stripe payments and OTP-verified checkout</li>
+              <li>Role-based operations dashboard</li>
+              <li>AI-assisted metadata and structured data</li>
+            </ul>
+            <div class="project-footer">
+              <div class="tags"><span>Next.js</span><span>Stripe</span><span>Cloudinary</span></div>
+              <a href="https://www.kickshub.site/" target="_blank" rel="noreferrer">Visit live site <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-intro reveal">
+        <p class="kicker">02 / Experience</p>
+        <h2>From product idea<br><span>to production.</span></h2>
+      </div>
+
+      <div class="experience-list">
+        <article class="experience-item reveal">
+          <p class="experience-date">Jul 2026 — Present</p>
+          <div class="experience-title"><h3>Full-Stack Developer</h3><p>Escalo AI</p></div>
+          <p class="experience-summary">Modernizing BizHub, an automotive dealership platform: migrating its Laravel backend to FastAPI, rebuilding REST endpoints and core business logic, and creating the React Native mobile experience from the ground up.</p>
+        </article>
+        <article class="experience-item reveal">
+          <p class="experience-date">May 2026 — Jul 2026</p>
+          <div class="experience-title"><h3>Software Engineering Intern</h3><p>Rhombix Technologies</p></div>
+          <p class="experience-summary">Designed a normalized MySQL database with referential integrity and indexed joins, then built the Python object model and helped deliver the complete Student Management System with a React frontend.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="kicker">03 / About</p>
+          <h2>Engineering with a<br><span>product mindset.</span></h2>
+          <p class="about-lead">I&apos;m a Software Engineering graduate from COMSATS University Islamabad who enjoys owning the whole journey: understanding the problem, shaping the experience, designing the data, and shipping the solution.</p>
+          <p>My work spans React and Next.js interfaces, React Native apps, Node.js and FastAPI services, SQL and NoSQL databases, and practical AI integrations. I care about software that is useful, maintainable, and ready for real users.</p>
+        </div>
+
+        <div class="capabilities reveal">
+          <div class="capability"><span>01</span><div><h3>Frontend & Mobile</h3><p>React, Next.js, React Native, Expo, TypeScript</p></div></div>
+          <div class="capability"><span>02</span><div><h3>Backend & Data</h3><p>Node.js, Express, FastAPI, Flask, PostgreSQL, MySQL, MongoDB</p></div></div>
+          <div class="capability"><span>03</span><div><h3>Product Integrations</h3><p>Stripe, WhatsApp Business API, Cloudinary, LLM APIs</p></div></div>
+          <div class="capability"><span>04</span><div><h3>Foundation</h3><p>BS Software Engineering · Deep Learning Specialization</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section reveal" id="contact">
+      <p class="kicker">Have a role or project in mind?</p>
+      <h2>Let&apos;s build something<br><em>worth using.</em></h2>
+      <a class="contact-email" href="mailto:haiderhunjra1011@gmail.com">haiderhunjra1011@gmail.com <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Haider Abbas</p>
+    <div>
+      <a href="https://github.com/https-Haider" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <a href="https://linkedin.com/in/haider-abbas-7557712b5" target="_blank" rel="noreferrer">LinkedIn ↗</a>
     </div>
+    <a href="#top">Back to top ↑</a>
+  </footer>
 
-    <script>
-        const menuToggle = document.querySelector('[data-menu-toggle]');
-        const mobileNav = document.querySelector('#mobile-nav');
-        const typedRole = document.querySelector('[data-typed-role]');
+  <script>
+    const menuButton = document.querySelector('[data-menu-button]');
+    const mobileMenu = document.querySelector('[data-mobile-menu]');
 
-        const roles = ['Full-Stack Developer', 'Next.js Developer', 'MERN Stack Engineer'];
-        let roleIndex = 0;
-        let letterIndex = 0;
-        let deleting = false;
+    menuButton?.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      menuButton.classList.toggle('open', open);
+      menuButton.setAttribute('aria-expanded', String(open));
+      menuButton.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+    });
 
-        const tick = () => {
-            if (!typedRole) {
-                return;
-            }
+    mobileMenu?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+      mobileMenu.classList.remove('open');
+      menuButton.classList.remove('open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation');
+    }));
 
-            const currentRole = roles[roleIndex];
-            const nextText = deleting ? currentRole.slice(0, letterIndex - 1) : currentRole.slice(0, letterIndex + 1);
-            typedRole.textContent = nextText;
-            letterIndex = deleting ? letterIndex - 1 : letterIndex + 1;
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
 
-            if (!deleting && letterIndex === currentRole.length) {
-                deleting = true;
-                setTimeout(tick, 1200);
-                return;
-            }
-
-            if (deleting && letterIndex === 0) {
-                deleting = false;
-                roleIndex = (roleIndex + 1) % roles.length;
-            }
-
-            setTimeout(tick, deleting ? 55 : 90);
-        };
-
-        tick();
-
-        menuToggle?.addEventListener('click', () => {
-            const isOpen = mobileNav?.classList.toggle('open');
-            menuToggle.setAttribute('aria-expanded', String(Boolean(isOpen)));
-        });
-
-        mobileNav?.querySelectorAll('a').forEach((link) => {
-            link.addEventListener('click', () => {
-                mobileNav.classList.remove('open');
-                menuToggle?.setAttribute('aria-expanded', 'false');
-            });
-        });
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, { threshold: 0.15 });
-
-        document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
-
-    </script>
+    document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+  </script>
 </body>
 </html>
