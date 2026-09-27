@@ -337,7 +337,63 @@ button {
 }
 
 .project-cliniqly .project-visual {
-  background: #cad7ff;
+  background: #171310;
+}
+
+.project-fyp .project-visual {
+  background: #dceafb;
+}
+
+.project-kicks .project-visual {
+  background: #f4f4f2;
+}
+
+.screenshot-visual {
+  padding: clamp(42px, 5vw, 78px);
+}
+
+.project-screenshot {
+  display: block;
+  width: min(100%, 880px);
+  height: auto;
+  border: 1px solid rgba(10, 10, 10, 0.28);
+  border-radius: 16px;
+  box-shadow: 28px 32px 0 rgba(10, 10, 10, 0.12);
+  transform: rotate(-1.35deg);
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.project-cliniqly .project-screenshot {
+  border-color: rgba(235, 184, 149, 0.3);
+  box-shadow: 28px 32px 0 rgba(220, 136, 99, 0.16);
+}
+
+.project-fyp .project-screenshot {
+  border-color: rgba(61, 112, 178, 0.2);
+  box-shadow: 28px 32px 0 rgba(65, 122, 192, 0.14);
+}
+
+.project-kicks .project-screenshot {
+  border-color: rgba(10, 10, 10, 0.16);
+  box-shadow: 28px 32px 0 rgba(112, 105, 94, 0.13);
+}
+
+.project:hover .project-screenshot {
+  box-shadow: 20px 24px 0 rgba(10, 10, 10, 0.16);
+  transform: rotate(0deg) translateY(-5px);
+}
+
+.project-fyp .project-screenshot {
+  transform: rotate(1.35deg);
+}
+
+.project-fyp:hover .project-screenshot {
+  transform: rotate(0deg) translateY(-5px);
+}
+
+.project-screenshot-fyp {
+  max-height: 460px;
+  object-fit: cover;
 }
 
 .project-copy {
@@ -413,231 +469,6 @@ button {
   font-family: 'DM Mono', monospace;
   font-size: 0.68rem;
   text-transform: uppercase;
-}
-
-.browser-mockup,
-.code-window,
-.shoe-card {
-  width: min(100%, 720px);
-  overflow: hidden;
-  border: 1px solid rgba(10, 10, 10, 0.3);
-  border-radius: 18px;
-  background: #f9f9f7;
-  box-shadow: 28px 32px 0 rgba(10, 10, 10, 0.12);
-  transform: rotate(-2.5deg);
-}
-
-.browser-bar,
-.code-top {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  height: 42px;
-  padding: 0 14px;
-  border-bottom: 1px solid rgba(10, 10, 10, 0.12);
-  background: white;
-}
-
-.browser-bar span {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #bbb;
-}
-
-.browser-bar b {
-  margin-left: auto;
-  color: #888;
-  font-family: 'DM Mono', monospace;
-  font-size: 0.62rem;
-  font-weight: 400;
-}
-
-.clinic-ui {
-  display: grid;
-  grid-template-columns: 58px 1fr;
-  min-height: 330px;
-}
-
-.mock-sidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 22px;
-  padding: 18px 0;
-  color: white;
-  background: #202b61;
-}
-
-.mock-sidebar b {
-  display: grid;
-  place-items: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 8px;
-  background: #8ba2ff;
-}
-
-.mock-sidebar i {
-  width: 17px;
-  height: 5px;
-  border-radius: 5px;
-  background: rgba(255, 255, 255, 0.4);
-}
-
-.mock-main {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-}
-
-.mock-main small {
-  color: #8a8ca0;
-  font-size: 0.55rem;
-  letter-spacing: 0.14em;
-}
-
-.mock-main strong {
-  margin: 5px 0 24px;
-  font-size: 1.1rem;
-}
-
-.mock-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 9px;
-}
-
-.mock-stats i {
-  height: 66px;
-  border-radius: 9px;
-  background: #e9ebf5;
-}
-
-.mock-calendar {
-  flex: 1;
-  margin-top: 14px;
-  border-radius: 10px;
-  background: repeating-linear-gradient(#fff 0 30px, #eceef4 31px);
-}
-
-.code-visual {
-  color: #f4f1ea;
-  background: var(--orange);
-}
-
-.code-window {
-  background: #111;
-  box-shadow: 28px 32px 0 rgba(93, 25, 9, 0.22);
-  transform: rotate(2deg);
-}
-
-.code-top {
-  justify-content: space-between;
-  color: #aaa;
-  border-color: #333;
-  background: #191919;
-  font-family: 'DM Mono', monospace;
-  font-size: 0.68rem;
-}
-
-.code-window pre {
-  min-height: 295px;
-  margin: 0;
-  padding: 34px 24px;
-  color: #efefef;
-  font-family: 'DM Mono', monospace;
-  font-size: clamp(0.66rem, 1.2vw, 0.9rem);
-  line-height: 2;
-}
-
-.code-dim {
-  color: #555;
-}
-
-.code-warn {
-  color: var(--acid);
-}
-
-.analysis-chip {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin: 0 22px 22px;
-  padding: 14px 16px;
-  color: var(--ink);
-  border-radius: 10px;
-  background: var(--acid);
-}
-
-.analysis-chip b {
-  font-size: 1.45rem;
-}
-
-.analysis-chip span {
-  font-size: 0.76rem;
-}
-
-.shoe-visual {
-  background: var(--acid);
-}
-
-.shoe-card {
-  position: relative;
-  min-height: 420px;
-  padding: 28px;
-  background: #171717;
-  box-shadow: 28px 32px 0 rgba(60, 74, 20, 0.22);
-  transform: rotate(-2deg);
-}
-
-.shoe-label {
-  color: #aaa;
-  font-family: 'DM Mono', monospace;
-  font-size: 0.64rem;
-  letter-spacing: 0.12em;
-}
-
-.shoe-word {
-  margin-top: 32px;
-  color: white;
-  font-size: clamp(3.5rem, 8vw, 7.5rem);
-  font-weight: 800;
-  letter-spacing: -0.09em;
-}
-
-.shoe-shape {
-  position: absolute;
-  top: 47%;
-  left: 50%;
-  width: 62%;
-  height: 21%;
-  border: 4px solid var(--acid);
-  border-radius: 80% 20% 38% 40%;
-  transform: translate(-50%, -50%) rotate(-12deg);
-}
-
-.shoe-shape::after {
-  content: '';
-  position: absolute;
-  right: 9%;
-  bottom: -12px;
-  width: 70%;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--acid);
-}
-
-.shoe-metrics {
-  position: absolute;
-  right: 26px;
-  bottom: 24px;
-  left: 26px;
-  display: flex;
-  justify-content: space-between;
-  color: #aaa;
-  font-family: 'DM Mono', monospace;
-  font-size: 0.68rem;
 }
 
 .shoe-metrics b {
@@ -955,19 +786,15 @@ button {
     padding: 52px 24px 30px;
   }
 
-  .browser-mockup,
-  .code-window,
-  .shoe-card {
+  .screenshot-visual {
+    min-height: 280px;
+    padding: 58px 22px 34px;
+  }
+
+  .project-screenshot {
+    border-radius: 10px;
     box-shadow: 14px 17px 0 rgba(10, 10, 10, 0.13);
   }
-
-  .clinic-ui {
-    min-height: 240px;
-  }
-
-  .mock-main { padding: 18px; }
-  .mock-stats i { height: 48px; }
-  .shoe-card { min-height: 310px; }
 
   .project-copy {
     padding: 30px 24px;
