@@ -12,6 +12,7 @@ Interactive portfolio console for **Haider Abbas**, a full-stack developer shipp
 | **HPA Plus Mobile** | Expo / React Native admin & staff apps with live API parity | [hpaplus.com.au](https://www.hpaplus.com.au/) |
 | **Bizhubz Portal** | Automotive SaaS — FastAPI migration + web platform | [bizhubz.vercel.app](https://bizhubz.vercel.app/sign-in) |
 | **Bizhubz Mobile** | React Native dealership workflows (iOS & Android) | [Play Store](https://play.google.com/store/apps/details?id=com.bizhubz.app) · [App Store](https://apps.apple.com/pk/app/bizhubz/id6807721811) |
+| **AutoHisab** | Pakistan vehicle fuel & ownership cost calculators (Next.js) | [autohisab.vercel.app](https://autohisab.vercel.app/) |
 | **Cliniqly** | Clinic SaaS with WhatsApp Business API | [cliniqly.tech](https://www.cliniqly.tech/) |
 | **Code Smell Detection** | FYP — deterministic checks + fine-tuned transformers | [GitHub](https://github.com/https-Haider/FYP-Front-End) |
 | **KicksHub** | Production commerce (Stripe, inventory, OTP checkout) | [kickshub.site](https://www.kickshub.site/) |
