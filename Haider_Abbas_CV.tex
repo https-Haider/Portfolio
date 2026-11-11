@@ -1,0 +1,114 @@
+%-------------------------
+% Haider Abbas — One-Page CV (Overleaf)
+% Compile with: pdfLaTeX
+% Font: Nimbus Sans (same family as the original CV)
+%-------------------------
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[margin=0.55in, top=0.42in, bottom=0.4in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+
+\urlstyle{same}
+\pagestyle{empty}
+\raggedbottom
+\RaggedRight
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\hfuzz=1pt
+\setlist[itemize]{leftmargin=1.15em, itemsep=1.5pt, parsep=0pt, topsep=2pt, partopsep=0pt}
+
+% Bold uppercase section labels. No small-caps: Nimbus Sans has none,
+% and \scshape falls back to another font and collides with the line.
+\titleformat{\section}{
+  \vspace{2pt}\large\bfseries\raggedright
+}{}{0em}{\MakeUppercase}[\vspace{1pt}{\color{black}\titlerule}\vspace{3pt}]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+
+\newcommand{\role}[4]{%
+  \vspace{3pt}
+  \textbf{#1}\hfill #2\\[1pt]
+  \textit{#3}\hfill \textit{#4}\par
+  \vspace{1pt}
+}
+% Right-hand link stays on the title row. A plain \hfill drifts under \raggedright.
+\newcommand{\plink}[2]{\href{#1}{\underline{#2}}}
+\newcommand{\project}[3]{%
+  \vspace{4pt}%
+  \noindent
+  \begin{minipage}[t]{0.72\textwidth}
+    \RaggedRight\textbf{#1}%
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.26\textwidth}
+    \raggedleft #2%
+  \end{minipage}\\[2pt]
+  #3\par
+}
+
+%-------------------------------------------
+\begin{document}
+
+\begin{center}
+  {\fontsize{25}{30}\selectfont\bfseries Haider Abbas}\\[6pt]
+  {\small
+  Lahore, Pakistan \textbar\ \href{tel:+923177258837}{+92 317 7258837} \textbar\ \href{mailto:haiderhunjra1011@gmail.com}{haiderhunjra1011@gmail.com}\\[2pt]
+  \href{https://linkedin.com/in/haider-abbas-7557712b5}{LinkedIn} \textbar\
+  \href{https://github.com/https-Haider}{GitHub} \textbar\
+  \href{https://haider-abbas-portfolio.vercel.app}{Portfolio}}
+\end{center}
+\vspace{-2pt}
+
+\section{Professional Summary}
+Full-stack developer shipping multi-tenant SaaS: Next.js portals, Expo and React Native apps, and FastAPI services. At Escalo AI, building HPA Plus for Australian aged care and migrating Bizhubz from Laravel to FastAPI, with the dealership app live on the App Store and Google Play.
+
+\section{Technical Skills}
+\textbf{Languages:} JavaScript, TypeScript, Python, SQL\\[1pt]
+\textbf{Frontend \& Mobile:} React, Next.js, React Native, Expo\\[1pt]
+\textbf{Backend:} Node.js, Express, FastAPI, Flask\\[1pt]
+\textbf{Databases:} PostgreSQL, MySQL, MongoDB\\[1pt]
+\textbf{Tools:} Git, Vercel, Stripe, WhatsApp Business API
+
+\section{Experience}
+\role{Escalo AI}{Feb 2026 -- Present}{Full-Stack Developer}{Remote}
+\begin{itemize}
+  \item Collaborate on the \textbf{HPA Plus} Next.js provider portal for Australian NDIS and aged-care teams: rostering, clients, staff, invoicing, payroll, and e-sign. \plink{https://hpa-plus.vercel.app/}{Live} \textbar\ \plink{https://www.hpaplus.com.au/}{Product}
+  \item Build the HPA Plus Expo admin and staff apps: roster boards, onboarding, and Xero SSO, with live API parity to the web portal.
+  \item Migrate \textbf{Bizhubz} from Laravel to \textbf{FastAPI}, rewriting REST endpoints and dealership logic while keeping existing web and mobile clients working. \plink{https://bizhubz.vercel.app/sign-in}{Live}
+  \item Build the Bizhubz React Native app (appraisals, test drives, e-sign, chat, and reconditioning), live on \plink{https://play.google.com/store/apps/details?id=com.bizhubz.app}{Google Play} and the \plink{https://apps.apple.com/pk/app/bizhubz/id6807721811}{App Store}.
+\end{itemize}
+
+\role{Rhombix Technologies}{Jun 2025 -- Aug 2025}{Software Engineering Intern}{Lahore, Pakistan}
+\begin{itemize}
+  \item Delivered a student management system with a normalized MySQL schema, a Python backend, and a React frontend.
+\end{itemize}
+
+\section{Projects}
+\project{Cliniqly \textbar\ Next.js, Node.js}{\plink{https://www.cliniqly.tech/}{Live}}{%
+  Clinic platform for bookings, calendars, and client records, with WhatsApp Business API reminders that confirm appointments.%
+}
+\project{KicksHub \textbar\ Next.js, Node.js, Stripe}{\plink{https://www.kickshub.site/}{Live}}{%
+  Production commerce platform with 200+ products, real-time inventory, Stripe payments, OTP checkout, and 20+ REST APIs.%
+}
+\project{Code Smell Detection \textbar\ Final Year Project}{\plink{https://github.com/https-Haider/FYP-Front-End}{GitHub}}{%
+  26 rule checks and two fine-tuned transformers (74.93\% benchmark accuracy), with an LLM refactor suggestion for each finding.%
+}
+
+\section{Education}
+\textbf{COMSATS University Islamabad, Lahore Campus} \hfill Feb 2022 -- Jan 2026\\
+\textit{B.S.\ Software Engineering}
+
+\section{Certifications}
+\textbf{Deep Learning Specialization} \textbar\ Coursera / DeepLearning.AI
+\begin{itemize}
+  \item Neural Networks and Deep Learning
+  \item Improving Deep Neural Networks: Hyperparameter Tuning \& Optimization
+  \item Structuring Machine Learning Projects
+\end{itemize}
+
+\end{document}
